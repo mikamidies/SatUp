@@ -110,7 +110,7 @@ export default {
   position: absolute;
   top: -16px;
   left: 16px;
-  border: 3px dashed white;
+  border: 3px dashed var(--pink);
   z-index: 2;
 }
 .cover {

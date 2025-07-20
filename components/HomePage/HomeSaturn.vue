@@ -33,7 +33,7 @@ export default {}
   width: 100%;
   height: 100%;
   border-radius: 60px;
-  background: white;
+  background: var(--darkblue);
   content: '';
   position: absolute;
   top: 14px;
@@ -48,7 +48,7 @@ export default {}
   position: absolute;
   top: -16px;
   left: 16px;
-  border: 3px dashed white;
+  border: 3px dashed var(--darkblue);
   z-index: 2;
 }
 .cover {
@@ -70,7 +70,7 @@ export default {}
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  max-width: 85%;
+  max-width: 90%;
 }
 .img {
   z-index: 3;

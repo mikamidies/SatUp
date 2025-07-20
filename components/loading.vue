@@ -2,7 +2,7 @@
   <div class="dark">
     <transition name="home">
       <div v-if="loading" class="loading">
-        <img class="pic" src="@/assets/img/logo/brand.png" alt="" />
+        <img class="pic" src="@/assets/img/logo/black.png" alt="" />
       </div>
     </transition>
   </div>
@@ -75,7 +75,6 @@ export default {
   align-items: center;
   justify-content: center;
   z-index: 99999;
-  background: var(--black);
 }
 .pic {
   width: 120px;

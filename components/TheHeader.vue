@@ -3,7 +3,7 @@
     <div class="container">
       <div class="left">
         <button @click="scrollElement('home')">
-          <img width="100" src="@/assets/img/logo/brand.png" alt="" />
+          <img width="100" src="@/assets/img/logo/black.png" alt="" />
         </button>
       </div>
       <div class="mid">
@@ -64,11 +64,6 @@
           <li>
             <button @click="scrollElement('about')">
               {{ $store.state.translations['main.about'] }}
-            </button>
-          </li>
-          <li>
-            <button @click="scrollElement('teachers')">
-              {{ $store.state.translations['main.teachers'] }}
             </button>
           </li>
           <li>
@@ -168,9 +163,9 @@ export default {
   padding: 46px 0;
 }
 .wrap.scroll {
-  background: var(--black);
+  background: white;
   padding: 16px 0;
-  border-bottom: 1px solid #a4a4a4;
+  border-bottom: 1px solid var(--darkblue);
 }
 .container {
   display: flex;
@@ -184,13 +179,13 @@ export default {
 }
 .links button {
   font-size: 20px;
-  color: #a4a4a4;
+  color: var(--darkblue);
+  font-weight: 600;
   transition: 0.4s;
   padding: 20px;
 }
 .links button:hover {
-  font-weight: 700;
-  color: white;
+  color: var(--darkblue);
 }
 .links button.active {
   font-family: var(--bold);
@@ -251,14 +246,14 @@ export default {
   .stick {
     width: 30px;
     height: 2px;
-    background: white;
+    background: var(--darkblue);
     position: relative;
     transition: 0.3s;
   }
   .stick::before {
     width: 30px;
     height: 2px;
-    background: white;
+    background: var(--darkblue);
     position: absolute;
     top: 10px;
     left: 0;
@@ -268,7 +263,7 @@ export default {
   .stick::after {
     width: 30px;
     height: 2px;
-    background: white;
+    background: var(--darkblue);
     position: absolute;
     top: -10px;
     left: 0;
@@ -293,7 +288,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--black);
+    background: white;
     z-index: 1;
     align-items: center;
     justify-content: center;
@@ -311,7 +306,7 @@ export default {
   }
   .menu .links {
     flex-direction: column;
-    gap: 32px;
+    gap: 24px;
   }
   .menu .right {
     display: flex !important;
@@ -321,11 +316,11 @@ export default {
     max-width: 288px;
   }
   .menu .links button {
-    color: white;
+    color: var(--darkblue);
     font-size: 26px;
   }
   .menu .lang {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 16px;
   }

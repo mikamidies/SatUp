@@ -31,6 +31,7 @@
   --magenta: #8700fe;
   --bloody: #53003c;
   --pink: #ce1099;
+  --darkblue: #002547;
 }
 
 html,
@@ -170,9 +171,9 @@ body,
 html {
   height: 100%;
   scroll-behavior: smooth;
-  background: var(--black);
+  background: white;
   font-family: var(--regular);
-  color: white !important;
+  color: #002547 !important;
 }
 
 .container {

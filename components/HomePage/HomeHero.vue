@@ -54,7 +54,7 @@ export default {
   font-weight: 800;
   line-height: 75px;
   margin-bottom: 72px;
-  background: linear-gradient(95deg, #fff 52.66%, #bbb5ff 95.51%);
+  background: linear-gradient(95deg, #002547 52.66%, #bbb5ff 95.51%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

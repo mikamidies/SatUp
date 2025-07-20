@@ -187,6 +187,7 @@ export default {
   padding: 48px 64px;
   max-width: 900px;
   margin: 0 auto;
+  background: var(--violet);
 }
 .top {
   display: grid;

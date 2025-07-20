@@ -101,7 +101,7 @@ export default {
   z-index: 9;
   position: relative;
   margin: 0;
-  background: rgba(97, 95, 95, 0.25);
+  background: var(--darkblue);
   padding: 24px 38px;
   color: #fff;
   text-align: center;
@@ -114,7 +114,7 @@ export default {
 
 .accordion__content :deep(p) {
   padding: 20px 36px 32px 36px;
-  background: rgba(97, 95, 95, 0.25) !important;
+  background: var(--darkblue) !important;
 }
 
 .accordion__content :deep(*) {

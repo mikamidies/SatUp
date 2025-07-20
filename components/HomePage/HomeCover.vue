@@ -149,7 +149,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  background: var(--black);
+  background: white;
 }
 .text::after {
   width: 170px;
@@ -177,7 +177,7 @@ export default {
   z-index: -1;
 }
 .text p {
-  color: #fff;
+  color: var(--darkblue) !important;
   text-align: center;
   font-family: var(--decor);
   font-size: 15px;

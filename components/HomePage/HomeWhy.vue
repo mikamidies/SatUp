@@ -172,7 +172,7 @@ export default {
   object-fit: cover;
 }
 .name {
-  color: #fff;
+  color: var(--darkblue) !important;
   font-family: var(--bold);
   font-size: 30px;
   font-style: normal;
@@ -184,7 +184,7 @@ export default {
   margin-bottom: 16px;
 }
 .sub {
-  color: #fff;
+  color: var(--darkblue) !important;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: var(--decor);
   font-size: 25px;
@@ -219,7 +219,7 @@ export default {
   justify-content: center;
   width: 45px;
   height: 45px;
-  background: white;
+  background: var(--violet);
   border-radius: 50%;
   cursor: pointer;
 }
